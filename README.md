@@ -46,3 +46,14 @@ TensorBoard 기록, Early Stopping 등 실전 구조로 구성되어 있습니�
 1. 필요한 패키지 설치  
 ```bash
 !pip install tensorboard
+# PyTorch와 TorchVision 설치 (Colab에 이미 설치된 경우가 많음)
+!pip install torch torchvision
+
+# OpenCV 설치
+!pip install opencv-python-headless
+
+# Matplotlib 설치
+!pip install matplotlib
+
+# Albumentations 설치 (선택 사항, 데이터 증강 시 유용)
+!pip install albumentations
